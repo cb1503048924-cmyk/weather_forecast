@@ -47,7 +47,6 @@ def collect_data():
         
         # Import data collector
         from src.data_collector import WeatherDataCollector
-        from src.data_processing import WeatherDataProcessor
         
         collector = WeatherDataCollector()
         
